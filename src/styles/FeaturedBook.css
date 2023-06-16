@@ -1,0 +1,17 @@
+.featured-book img {
+    width: 200px;
+    object-fit: cover;
+}
+
+.featured-book-text {
+    color: white;
+    font-size: 24px;
+    /* Add other styles for the text as needed */
+}
+
+.featured-book {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-right: 90px;
+}

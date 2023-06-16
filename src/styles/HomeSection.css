@@ -1,0 +1,14 @@
+.home-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-start;
+    /* Additional styling for the home section */
+}
+
+.home-section__content {
+    margin-top: 170px;
+    display: flex;
+    /* Additional styling for the content area */
+}
