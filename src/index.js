@@ -6,6 +6,7 @@ import reportWebVitals from "./reportWebVitals";
 
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Playground from "./Playground";
+import BooksSection from "./components/sections/BooksSection";
 
 const router = createBrowserRouter([
   {
@@ -15,6 +16,10 @@ const router = createBrowserRouter([
   {
     path: "/test",
     element: <Playground />,
+  },
+  {
+    path: "/books",
+    element: <BooksSection />,
   },
 ]);
 

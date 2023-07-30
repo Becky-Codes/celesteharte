@@ -6,7 +6,7 @@ import Menu from "../common/Menu";
 
 function HomeSection() {
   return (
-    <div className="home-section">
+    <div className="home-section" style={{ marginBottom: 500 }}>
       <Menu />
       <div className="home-section__content">
         <FeaturedBook /* props */ />

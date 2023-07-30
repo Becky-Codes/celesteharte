@@ -5,14 +5,13 @@ import Button from "./Button";
 
 function FeaturedBook() {
   const bookAltText = "Dragon Bones Trilogy available now!";
+  const buttonLink =
+    "https://www.amazon.com/stores/Celeste-Harte/author/B084MND3LT?ref=ap_rdr&store_ref=ap_rdr&isDramIntegrated=true&shoppingPortalEnabled=true";
 
   return (
     <div className="featured-book">
       <img src={featuredBookImage} alt={bookAltText} />
-      <Button
-        text="BUY NOW"
-        link="https://www.amazon.com/stores/Celeste-Harte/author/B084MND3LT?ref=ap_rdr&store_ref=ap_rdr&isDramIntegrated=true&shoppingPortalEnabled=true"
-      />
+      <Button text="BUY NOW" link={buttonLink} />
     </div>
   );
 }
