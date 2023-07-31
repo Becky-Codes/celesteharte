@@ -36,6 +36,39 @@ code {
 
 }
 
+@font-face {
+  font-family: 'commeextralight';
+  src: url('Comme-ExtraLight-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'existencelight';
+  src: url('Existence-Light-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'existencestencillight';
+  src: url('Existence-StencilLight-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'existenceunicaselight';
+  src: url('Existence-UnicaseLight-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Belleza&family=Montserrat+Alternates:wght@500&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Belleza&display=swap');
 

@@ -1,10 +1,32 @@
 .gallery-header {
+/* font */
+    font-family: 'existencelight', sans-serif;
+    text-align: left;
+    color: rgb(189, 189, 189);
+    font-size: 100px;
+    /* padding */
+    padding-top: 170px;
+
+    /* margin */
+    margin-bottom: 80px;
+    margin-top: 430px;
+    margin-left: 80px;
+}
+
+.gallery-subheader {
+
+    /* font */
     font-family: 'Belleza', sans-serif;
     text-align: left;
     color: rgb(189, 189, 189);
-    font-size: 90px;
-    margin-bottom: 10px;
-    margin-top: 180px;
-    margin-left: 80px;
-    padding-top: 50px;
+    font-size: 40px;
+    
+        /* margin */
+        margin-top: 0px;
+        margin-left: 150px;
+    }
+    
+    .horizontal-line {
+        border: 3px solid rgb(189, 189, 189);
+        margin: 10px 0;
 }

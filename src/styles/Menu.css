@@ -1,6 +1,6 @@
 .menu {
     display: flex;
-    background: rgba(0, 0, 0, 0.7);
+    background: rgba(30, 30, 30, 0.70);
     margin: 0 auto;
     width: 70%;
     padding-top: 10px;
@@ -20,8 +20,8 @@
 
 .menu_text {
     color: white;
-    font-family: 'commelight', Arial, Helvetica, sans-serif;
-    font-size: 15pt;
+    font-family: 'Montserrat Alternates', sans-serif;
+        font-size: 15pt;
 }
 
 .menu a {
