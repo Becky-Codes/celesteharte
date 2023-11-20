@@ -1,5 +1,5 @@
 .featured-book img {
-    width: 200px;
+    width: 350px;
     object-fit: cover;
 }
 
@@ -13,5 +13,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-right: 90px;
+    padding-top: 20px;
+        padding-right: 230px;
 }

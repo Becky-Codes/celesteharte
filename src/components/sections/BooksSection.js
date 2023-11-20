@@ -20,7 +20,7 @@ function BooksSection() {
       header to be after the horizontal line instead of the header
       itself. And then the header itself will have a smaller margin
       more suiting of a slight distance between it and an underline*/}
-      {/* <div className="horizontal-line"></div> */}
+      <div className="horizontal-line"></div>
       <h2 className="gallery-subheader">{seriesOne}</h2>
       <Gallery />
     </div>

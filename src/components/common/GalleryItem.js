@@ -1,18 +1,24 @@
+// GalleryItem.js
+
 import React from "react";
-import galleryItem from "../../assets/gallery-items/gallery-item-1.jpg";
 import "../../styles/GalleryItems.css";
 
-function GalleryItem() {
-  const firstGalleryItemText = "Conquest";
-  const firstItemLink =
-    "https://www.amazon.com/Conquest-Dragon-Bones-Book-1-ebook/dp/B083JY95R5";
+function GalleryItem(props) {
+  const { galleryItemText, itemLink, imageSrc } = props;
 
   return (
     <div className="gallery-item">
-      <a href={firstItemLink}>
-        <img src={galleryItem} alt={firstGalleryItemText} />
+      <a href={itemLink}>
+        <img
+          className="gallery-item-img"
+          src={imageSrc}
+          alt={galleryItemText}
+        />
+        <div className="read-description">
+          <p>Read Description</p>
+        </div>
       </a>
-      <p className="gallery-item-text">{firstGalleryItemText}</p>
+      <p className="gallery-item-text">{galleryItemText}</p>
     </div>
   );
 }
