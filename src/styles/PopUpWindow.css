@@ -1,0 +1,27 @@
+.popup-window {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #D2D2E0;
+    width: 1000px;
+    padding: 50px 50px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+}
+
+.popup-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.popup-art {
+    max-width: 300px;
+    margin-right: 100px;
+}
+
+.art-description {
+    flex: 1;
+    font-size: 18px;
+}

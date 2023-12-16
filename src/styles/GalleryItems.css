@@ -3,8 +3,8 @@
 .gallery-item {
     position: relative;
     align-items: left;
-    padding-right: 90px;
-    padding-bottom: 50px;
+    margin-right: 90px;
+        margin-bottom: 50px;
     margin-top: 50px;
         margin-left: 200px;
     /* other positioning, padding, and margin styles */
@@ -17,6 +17,9 @@
   }
 
   .gallery-item-text {
+    margin-right: 90px;
+        margin-bottom: 50px;
+        margin-left: 200px;
       font-family: 'commeregular', Arial, Helvetica, sans-serif;
       font-size: 25px;
       color: rgb(189, 189, 189);
@@ -24,7 +27,7 @@
     }
     
     /* Adjust the positioning of the overlay to only cover the image */
-    .read-description {
+        .view-description {
         position: absolute;
         top: 0;
         left: 0;
@@ -39,6 +42,6 @@
         transition: opacity 0.2s ease-in-out;
     }
     
-    .gallery-item:hover .read-description {
+        .gallery-item:hover .view-description {
         opacity: 1;
     }
