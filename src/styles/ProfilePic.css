@@ -1,0 +1,14 @@
+.profile-pic img {
+    width: 350px;
+    object-fit: cover;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.profile-pic {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 120px;
+    padding-bottom: 50px;
+}

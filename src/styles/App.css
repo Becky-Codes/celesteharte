@@ -1,8 +1,9 @@
 .App {
     background-position: center;
       background-size: cover;
-      height: 100vh;
+      height: 133vh;
       text-align: left;
+      background-attachment: fixed;
     }
 
 
