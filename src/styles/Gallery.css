@@ -1,0 +1,37 @@
+.gallery-header {
+/* font */
+    font-family: 'existencelight', sans-serif;
+    text-align: left;
+    color: rgb(189, 189, 189);
+    font-size: 100px;
+    /* padding */
+    padding-top: 170px;
+
+    /* margin */
+    margin-bottom: 0px;
+        margin-top: 100px;
+    margin-left: 80px;
+}
+
+.gallery-subheader {
+
+    /* font */
+    font-family: 'Belleza', sans-serif;
+    text-align: left;
+    color: rgb(189, 189, 189);
+    font-size: 40px;
+    
+        /* margin */
+        margin-top: 80px;
+        margin-left: 150px;
+    }
+    
+    .horizontal-line {
+            border: 0.5px solid rgb(189, 189, 189);
+                margin: 0px 0;
+            }
+            
+            .gallery-position {
+                display: flex;
+                flex-direction: row;
+}
