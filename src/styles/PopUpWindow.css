@@ -16,9 +16,13 @@
     align-items: center;
 }
 
+.scrollable-content {
+    padding: 10px;
+}
 .popup-art {
     max-width: 300px;
     margin-right: 100px;
+    margin-bottom: 30px;
 }
 
 .art-description {

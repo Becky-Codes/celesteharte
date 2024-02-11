@@ -1,0 +1,18 @@
+.about-me-section {
+    background-color: #1E1E1E;
+}
+
+.about-me-positioning {
+    display: flex;
+}
+
+.about-me-description {
+    font-family: 'commeregular', Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: #dbdbdb;
+    font-size: 25px;
+    padding-left: 350px;
+    padding-right: 350px;
+    margin-bottom: 0px;
+    line-height: 1.7;
+}

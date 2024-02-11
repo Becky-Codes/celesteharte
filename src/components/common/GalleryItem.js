@@ -7,22 +7,19 @@ function GalleryItem(props) {
   const { galleryItemText, itemLink, imageSrc } = props;
 
   return (
-<div>
-<div className="gallery-item">
-          
-            <img
-              className="gallery-item-img"
-              src={imageSrc}
-              alt={galleryItemText}
-            />
-            <div className="view-description">
-              <p>View Description</p>
-            </div>
+    <div className="gallery-item">
+      <img
+        className="gallery-item-img"
+        src={imageSrc}
+        alt={galleryItemText}
+      />
+      <div className="overlay">
+        <div className="overlay-text">View Description</div>
       </div>
-      <a href={itemLink}> <p className="gallery-item-text">{galleryItemText}</p></a>
-</div>
-
-      
+      <a href={itemLink}>
+        <p className="gallery-item-text">{galleryItemText}</p>
+      </a>
+    </div>
   );
 }
 

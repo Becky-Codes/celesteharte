@@ -1,46 +1,29 @@
 import React from "react";
-import { Link } from "react-router-dom";
-import "../../styles/Menu.css";
 import { HashLink } from "react-router-hash-link";
+import "../../styles/Menu.css";
 
-function Menu({ scrollToSection }) {
+function Menu() {
   return (
     <nav className="menu">
       <div className="menu_item">
-        <Link
-          to="/books"
-          className="menu_text"
-          onClick={() => scrollToSection("books-section")}
-        >
+        <HashLink smooth to="/#books-section" className="menu_text">
           Books
-        </Link>
+        </HashLink>
       </div>
       <div className="menu_item">
-        <Link
-          to="/characters"
-          className="menu_text"
-          onClick={() => scrollToSection("characters-section")}
-        >
+        <HashLink smooth to="/#characters-section" className="menu_text">
           Meet the Characters
-        </Link>
+        </HashLink>
       </div>
       <div className="menu_item">
-        <Link
-          to="/about"
-          className="menu_text"
-          onClick={() => scrollToSection("about-me-section")}
-        >
+        <HashLink smooth to="/#about-me-section" className="menu_text">
           About Me
-        </Link>
+        </HashLink>
       </div>
       <div className="menu_item">
-        <Link
-          to="/contact"
-          className="menu_text"
-          onClick={() => scrollToSection("contact-section")}
-        >
+        <HashLink smooth to="/#contact-section" className="menu_text">
           Contact
-        </Link>
+        </HashLink>
       </div>
       <div className="menu_item">
         <a href="/blog" className="menu_text">

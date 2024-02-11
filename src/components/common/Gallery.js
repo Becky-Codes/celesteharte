@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import GalleryItem from "./GalleryItem";
-// import BookPopup from "./BookPopup"; // Assuming you have a BookPopup component
 import PopUpWindow from "./PopUpWindow";
 import GalleryItemOne from "../../assets/gallery-items/gallery-item-1.jpg";
 import GalleryItemTwo from "../../assets/gallery-items/rising.jpg";
@@ -23,7 +22,7 @@ function Gallery() {
     },
     {
       galleryItemText: "Uproar",
-      itemLink: "https://www.amazon.com/Rising-Celeste-Harte/dp/1953491189",
+      itemLink: "https://www.amazon.com/Uproar-Dragon-Bones-Book-3-ebook/dp/B0CV6242YV/ref=sr_1_7?qid=1707422595&refinements=p_27%3ACeleste+Harte&s=digital-text&sr=1-7&text=Celeste+Harte",
       imageSrc: GalleryItemThree,
       description: ["Jashi Anyua Omah has been kidnapped by the Zendaalans and taken to Zendaal. And what's more, one of her captors is a strange man the Zendaalans call Deklas, but who calls himself Dekaar -- he's clearly K'sundii and dragon tribe, but has cybernetic implants like a Zendaalan. Not only that, but he appears to recognize Jashi somehow. He's a mad man, and he seems to have the Zendaalans wrapped around his finger. And he's obsessed with Jashi.", "Kahmel Axon Kai of the Omah clan has lost his wife, and he's no longer feeling merciful enough to think about anything but getting her back. But when he rescinds the throne and the Zendaalans suddenly decide not to give Jashi back in return, Kahmel realizes that he's going to need to strike a new deal with the Dragon Kings to save her.", "Kahmel and Jashi have made promises to each other that they intend to keep by any means necessary, no matter what comes in their way. They're changing plans, thinking only of those that have proven their loyalty and their combined futures.", "No one else matters."],
     },
