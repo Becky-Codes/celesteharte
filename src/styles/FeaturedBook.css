@@ -23,9 +23,20 @@
         padding-right: 70px;
         }
         
-        @media (max-width: 1000px) {
-            .featured-book {
-                padding-left: 100px;
-                /* Switch to column layout on smaller screens */
-            }
+@media (max-width: 1000px) {
+    .featured-book {
+        padding-left: 100px;
+        /* Switch to column layout on smaller screens */
+    }
+@media (max-width: 500px) {
+    .featured-book img {
+        width: 450px;
+    }
+}
+
+@media (max-width: 500px) {
+    .featured-book {
+        padding-left: 70px;
+    }
+}
 }
