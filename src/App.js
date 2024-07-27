@@ -18,7 +18,7 @@ function App() {
         <BooksSection />
         <MeetTheCharacters/>
         <AboutMe/>
-        <Contact/>
+        {/* <Contact/> */}
         <Footer/>
         
       </div>

@@ -1,8 +1,14 @@
 .featured-book img {
-    width: 300px;
+    width: 750px;
     object-fit: cover;
 }
 
+@media (max-width: 1000px) {
+    .featured-book img {
+        width: 500px;
+        /* Switch to column layout on smaller screens */
+    }
+}
 .featured-book-text {
     color: white;
     font-size: 24px;
@@ -14,5 +20,12 @@
     flex-direction: column;
     align-items: center;
     padding-top: 20px;
-        padding-right: 230px;
+        padding-right: 70px;
+        }
+        
+        @media (max-width: 1000px) {
+            .featured-book {
+                padding-left: 100px;
+                /* Switch to column layout on smaller screens */
+            }
 }

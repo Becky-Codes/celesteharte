@@ -3,6 +3,7 @@ import GalleryItem from "./GalleryItem";
 import PopUpWindow from "./PopUpWindow";
 import GalleryItemOne from "../../assets/art-gallery-items/1.jpg";
 import GalleryItemTwo from "../../assets/art-gallery-items/2.jpg";
+import GalleryItemThree from "../../assets/art-gallery-items/3.png"
 import "../../styles/Gallery.css";
 import "../../styles/GalleryItems.css"
 
@@ -17,6 +18,11 @@ function ArtGallery () {
           galleryItemText: "Kahmel",
           imageSrc: GalleryItemTwo,
           description: ["Kahmel Axon Kai of the Omah Clan. Faresh (king) of K'sundi, husband to Jashi Anyua Omah. He has a generally cool, almost cold demeanor, but when he's angry, he's a force to be reckoned with. His secret? He's always angry."],
+        },
+        {
+          galleryItemText: "Jashi and Ocean",
+          imageSrc: GalleryItemThree,
+          description: ["When Jashi was in danger, her dragon, Ocean, was the only one that could save her from an otherwise terrible fate. Ocean is an adolescent dragon, but she has bite."],
         },
       ];
     

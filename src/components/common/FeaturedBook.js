@@ -1,5 +1,5 @@
 import React from "react";
-import featuredBookImage from "../../assets/featured-book.jpg";
+import featuredBookImage from "../../assets/featured-book.png";
 import "../../styles/FeaturedBook.css";
 import Button from "./Button";
 

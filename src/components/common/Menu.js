@@ -20,11 +20,11 @@ function Menu() {
           About Me
         </HashLink>
       </div>
-      <div className="menu_item">
+      {/* <div className="menu_item">
         <HashLink smooth to="/#contact-section" className="menu_text">
           Contact
         </HashLink>
-      </div>
+      </div> */}
       <div className="menu_item">
         <a href="/blog" className="menu_text">
           Blog

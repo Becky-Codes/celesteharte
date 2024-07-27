@@ -1,77 +1,70 @@
 import React, { useState } from 'react';
-import "../../styles/ContactForm.css";
 
-const ContactForm = () => {
+function ContactForm() {
   const [formData, setFormData] = useState({
     name: '',
     email: '',
-    message: '',
+    message: ''
   });
 
   const handleChange = (e) => {
-    setFormData({ ...formData, [e.target.name]: e.target.value });
+    const { name, value } = e.target;
+    setFormData({ ...formData, [name]: value });
   };
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-
     try {
-      const response = await fetch('/send-email', {
+      const response = await fetch('http://localhost:3001/send-email', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'
         },
         body: JSON.stringify(formData)
       });
-
-      if (!response.ok) {
-        throw new Error('Failed to send email!!!');
+      if (response.ok) {
+        console.log('Email sent successfully');
+        // Reset form after successful submission
+        setFormData({ name: '', email: '', message: '' });
+      } else {
+        console.error('Error sending email');
       }
-
-      const data = await response.json();
-      console.log(data.message); // Output success message
     } catch (error) {
-      console.error('Error:', error.message); // Handle error
+      console.error('Error sending email:', error);
     }
   };
 
   return (
-    <form className="contact-form" onSubmit={handleSubmit}>
-      <label>
-        Name:
-        <input
-          type="text"
-          name="name"
-          value={formData.name}
-          onChange={handleChange}
-          required
-        />
-      </label>
-
-      <label>
-        Email:
-        <input
-          type="email"
-          name="email"
-          value={formData.email}
-          onChange={handleChange}
-          required
-        />
-      </label>
-
-      <label>
-        Message:
-        <textarea
-          name="message"
-          value={formData.message}
-          onChange={handleChange}
-          required
-        ></textarea>
-      </label>
-
-      <button type="submit">Submit</button>
-    </form>
+    <form onSubmit={handleSubmit}>
+    <label>
+      Name:
+      <input
+        type="text"
+        name="name"
+        value={formData.name}
+        onChange={handleChange}
+      />
+    </label>
+    <label>
+      Email:
+      <input
+        type="email"
+        name="email"
+        value={formData.email}
+        onChange={handleChange}
+      />
+    </label>
+    <label>
+      Message:
+      <textarea
+        name="message"
+        value={formData.message}
+        onChange={handleChange}
+      />
+    </label>
+    <button type="submit">Submit</button>
+  </form>
   );
-};
+}
 
 export default ContactForm;

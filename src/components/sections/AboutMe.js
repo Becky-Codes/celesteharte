@@ -8,7 +8,7 @@ function AboutMe() {
   
   return (
     <div id="about-me-section" className="about-me-section">
-      <h1 className="gallery-header" style={{ marginTop: 0 }}>ABOUT ME</h1>
+      <h1 className="gallery-header" style={{ marginTop: 0, marginLeft:160}}>ABOUT ME</h1>
       <div className="horizontal-line"></div>
       <ProfilePic />
       <div className="about-me-position">

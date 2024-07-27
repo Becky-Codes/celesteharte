@@ -12,3 +12,11 @@
     display: flex;
     /* Additional styling for the content area */
 }
+@media (max-width: 1000px) {
+    .home-section__content {
+        margin-top: 0px;
+        flex-direction: column-reverse;
+        align-items: center;
+        /* Switch to column layout on smaller screens */
+    }
+}

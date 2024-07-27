@@ -1,5 +1,11 @@
+/* styles.css */
 .about-me-section {
     background-color: #1E1E1E;
+    display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        min-height: 100vh;
 }
 
 .about-me-positioning {
@@ -10,9 +16,24 @@
     font-family: 'commeregular', Arial, Helvetica, sans-serif;
     text-align: center;
     color: #dbdbdb;
-    font-size: 25px;
-    padding-left: 350px;
-    padding-right: 350px;
+    font-size: 20px;
     margin-bottom: 0px;
     line-height: 1.7;
+    width: 700px;
+        /* Default fixed width */
+        transition: width 0.3s;
+    }
+    
+    @media (max-width: 768px) {
+        .about-me-description {
+            width: 500px;
+            /* Fixed width for smaller screens */
+        }
+    }
+    
+    @media (max-width: 480px) {
+        .about-me-description {
+            width: 300px;
+            /* Fixed width for even smaller screens */
+        }
 }
