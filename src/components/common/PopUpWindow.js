@@ -16,7 +16,7 @@ const PopUpWindow = ({ media, onClose }) => {
           ))}
         </div>
       </div>
-      <button onClick={onClose}>Close</button>
+      <button className='close-button' onClick={onClose}>Close</button>
     </div>
   );
 };
