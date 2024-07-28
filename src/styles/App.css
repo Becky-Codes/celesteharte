@@ -41,3 +41,17 @@
     transform: rotate(360deg);
   }
 }
+
+/* For mobile devices */
+@media (max-width: 768px) {
+  .App {
+    background-size: 1700px, 500px;
+    /* Adjust the scaling method */
+    background-position: top;
+    /* Adjust the position */
+    background-attachment: scroll;
+    /* Allow the background to scroll with the content */
+    height: auto;
+    /* Allow the height to adjust based on content */
+  }
+}

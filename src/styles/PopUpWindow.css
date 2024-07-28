@@ -10,19 +10,30 @@
     border-radius: 20px;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 800px) {
     .popup-window {
-        width: 400px;
+        width: 260px;
+            max-height: 550px;
+            padding: 20px;
+            left: 50%;
+            overflow-y: auto;
+            /* Enable vertical scrolling */
+            border: 1px solid rgb(255, 255, 255);
+            /* Optional: Add a border for better visualization */
+            padding: 10px solid #696C99;
+            ;
+            /* Optional: Add padding for better visualization */
         /* Switch to column layout on smaller screens */
     }
 }
+
 .popup-content {
     display: flex;
     flex-direction: row;
     align-items: center;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 800px) {
     .popup-content {
         flex-direction: column;
     }
@@ -36,10 +47,10 @@
     margin-bottom: 30px;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 800px) {
     .popup-art {
-        max-width: 200px;
-        margin-right: 50px;
+        max-width: 150px;
+            margin-right: 20px;
     }
 }
 .art-description {
@@ -51,4 +62,23 @@
     
     p {
         font-family: "Alegreya", serif;
+}
+@media (max-width: 800px) {
+    p {
+        font-size: 16px;
+    }
+}
+
+h2 {
+    margin-top: 10px;
+    margin-bottom: 0px;
+    font-size: 35px;
+    font-family: "Alegreya", serif;
+}
+
+h3 {
+    margin-top: 0px;
+    margin-bottom: 10px;
+    font-size: 25px;
+    font-family: "Alegreya", serif;
 }

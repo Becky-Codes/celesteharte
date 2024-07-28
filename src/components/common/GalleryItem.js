@@ -19,7 +19,7 @@ function GalleryItem(props) {
       <a href={itemLink}>
         <p className="gallery-item-text">{galleryItemText}</p>
       </a>
-    </div>
+      </div>
   );
 }
 

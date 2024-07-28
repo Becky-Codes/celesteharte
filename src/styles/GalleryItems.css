@@ -45,3 +45,21 @@
       font-size: 18px;
       text-align: center;
   }
+.gallery-item-text {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.gallery-item-info {
+  margin-top: 10px;
+}
+
+.gallery-item-title {
+  font-size: 18px;
+  color: #ff0000;
+}
+
+.gallery-item-subtitle {
+  font-size: 14px;
+  color: #00e1ff;
+}

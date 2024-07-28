@@ -5,7 +5,7 @@ import HomeSection from "./components/sections/HomeSection";
 import BooksSection from "./components/sections/BooksSection";
 import MeetTheCharacters from "./components/sections/MeetTheCharacters";
 import AboutMe from "./components/sections/AboutMe";
-import Contact from "./components/sections/Contact";
+// import Contact from "./components/sections/Contact";
 import Menu from "./components/common/Menu";
 import Footer from "./components/sections/Footer";
 
